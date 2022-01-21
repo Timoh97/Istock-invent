@@ -23,7 +23,7 @@ from .forms import (
 )
 
 # Supplier views
-@login_required(login_url='login')
+# @login_required(login_url='login')
 def create_supplier(request):
     forms = SupplierForm()
     if request.method == 'POST':
@@ -52,7 +52,7 @@ class SupplierListView(ListView):
 
 
 # Buyer views
-@login_required(login_url='login')
+# @login_required(login_url='login')
 def create_buyer(request):
     forms = BuyerForm()
     if request.method == 'POST':
@@ -80,7 +80,7 @@ class BuyerListView(ListView):
 
 
 # Season views
-@login_required(login_url='login')
+# @login_required(login_url='login')
 def create_season(request):
     forms = SeasonForm()
     if request.method == 'POST':
@@ -101,7 +101,7 @@ class SeasonListView(ListView):
 
 
 # Drop views
-@login_required(login_url='login')
+# @login_required(login_url='login')
 def create_drop(request):
     forms = DropForm()
     if request.method == 'POST':
@@ -122,7 +122,7 @@ class DropListView(ListView):
 
 
 # Product views
-@login_required(login_url='login')
+# @login_required(login_url='login')
 def create_product(request):
     forms = ProductForm()
     if request.method == 'POST':
@@ -143,7 +143,7 @@ class ProductListView(ListView):
 
 
 # Order views
-@login_required(login_url='login')
+# @login_required(login_url='login')
 def create_order(request):
     forms = OrderForm()
     if request.method == 'POST':
@@ -184,7 +184,7 @@ class OrderListView(ListView):
 
 
 # Delivery views
-@login_required(login_url='login')
+# @login_required(login_url='login')
 def create_delivery(request):
     forms = DeliveryForm()
     if request.method == 'POST':
