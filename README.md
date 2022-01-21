@@ -72,3 +72,4 @@ python manage.py server
  
 
  ## LICENSE AND COPYRIGHT
+[MIT License] **Timothy Mugendi** **2022**
