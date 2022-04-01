@@ -84,20 +84,20 @@ WSGI_APPLICATION = 'inventory.wsgi.application'
 DATABASES = {
       'default': {
            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-           'NAME': config('DB_NAME'),
-          'USER': config('DB_USER'),
-          'PASSWORD': config('DB_PASSWORD'),
-          'HOST': config('DB_HOST'),
+           'NAME': 'inventory',
+          'USER': 'tim',
+          'PASSWORD': 'P@ssword',
+          'HOST': '',
             'PORT': '',
       }
        
   }
 
 cloudinary.config(
-    cloud_name =config('CLOUD_NAME'),
-     api_key=config('CLOUD_API_KEY'), 
-     api_secret=config('API_SECRET'),
- )
+    cloud_name='dq4bcn8d2',
+    api_key='941563347348349', 
+    api_secret='7lOtGNkeYJ_zKGF92-O1hWxcY-k',
+)
 
 
 # Password validation
@@ -132,7 +132,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
