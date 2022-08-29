@@ -1,4 +1,10 @@
 asgiref==3.2.10
+certifi==2022.6.15
+cloudinary==1.29.0
 Django==3.0.8
+psycopg2==2.9.3
+python-decouple==3.6
 pytz==2020.1
+six==1.16.0
 sqlparse==0.3.1
+urllib3==1.26.12
